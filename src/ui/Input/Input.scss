@@ -1,0 +1,33 @@
+.MuiInputBase-root{
+    color:var(--palette-common-black);
+    border: 1px solid var(--black);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    padding: 0;
+    input{
+        padding: 10px;
+    }
+    .MuiInputAdornment-root{
+        margin-right: 0;
+        margin-left: 10px;
+    }
+}
+.password{
+    .MuiInputBase-root{
+        flex-direction: row-reverse;
+        padding-right: 10px;
+    }
+    .MuiIconButton-root{
+        padding: 0;
+    }
+    input{
+        padding-right: 0px;
+    }
+
+}
+.input-error{
+    display: inline-block;
+    p{
+        color:var(--palette-error-main);
+    }
+}

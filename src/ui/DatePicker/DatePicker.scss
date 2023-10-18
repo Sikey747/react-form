@@ -1,0 +1,12 @@
+.MuiButtonBase-root{
+    margin-right: 0;
+}
+.MuiPickersFadeTransitionGroup-root {
+    text-transform: capitalize;
+    font-size: 19px;
+}
+.MuiPickersDay-root{
+    &:hover{
+        background-color:var(--palette-primary-light);
+    }
+}

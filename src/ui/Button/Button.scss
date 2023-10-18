@@ -1,0 +1,7 @@
+.MuiButton-root{
+    color:var(--black);
+    background-color:var(--palette-primary-main); 
+    &:hover{
+        background-color:var(--palette-primary-light); 
+    }
+}

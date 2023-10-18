@@ -1,0 +1,14 @@
+@use "sass:math";
+@import "base/_mixins";
+@import "base/_null";
+@import "base/_var";
+@import "base/_typography";
+@import 'base/_utilit';
+
+
+form{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+}

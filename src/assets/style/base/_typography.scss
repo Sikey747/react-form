@@ -1,0 +1,75 @@
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+//   line-height: normal;
+// }
+
+h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 130.187%; 
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 130.187%; 
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.625rem;
+}
+
+h4 {
+  font-size: 15.375rem;
+}
+
+// h5 {
+//   @include adaptiveValue("font-size", 24, 18,0,768,320);
+// }
+
+// h6 {
+
+// }
+
+a {
+  cursor: pointer;
+  font-size: .875rem;
+  transition: all 0.3s ease-in-out;
+}
+
+a {
+  svg {
+    width: 2.1875rem;
+    height: 2.1875rem;
+    path {
+      transition: all 0.3s ease-in-out;
+      fill: var(--white);
+    }
+    // &:hover path {
+    //   fill: var(--primary);
+    // }
+  }
+}
+
+.time{
+  font-size: 1.25rem;
+  line-height: 130.187%;
+  color:var(--secondary)
+}
+
+// .primary{
+//   color: var(--primary);
+// }
+// svg{
+//   cursor: pointer;
+
+//   &:hover path{
+//       fill: red;
+//   }
+// }

@@ -1,0 +1,17 @@
+.MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+    color:var(--secondary);
+}
+
+.MuiAccordion-root{
+    background-color:rgba(255, 255, 255, 0.10);
+    color:var(--white);
+    padding: 0px 40px;
+}
+
+.MuiAccordionDetails-root{
+    padding: 0 0 32px 0;
+}
+
+.MuiAccordionSummary-content.Mui-expanded{
+    margin: 32px 0;
+}

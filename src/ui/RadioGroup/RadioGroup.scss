@@ -1,0 +1,10 @@
+.Mui-error {
+    .MuiRadio-root{
+        .MuiSvgIcon-root {
+            fill: var(--palette-error-main);
+        }
+    }
+    .MuiFormControlLabel-label{
+        color:var(--palette-error-main);
+    }
+}
